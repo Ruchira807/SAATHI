@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"inverse-on-surface":"#e8f4ea","on-tertiary-fixed-variant":"#6d3a00","tertiary":"#492500","tertiary-fixed-dim":"#ffb77a","error-container":"#ffdad6","surface-dim":"#d1ddd4","tertiary-fixed":"#ffdcc2","surface-container":"#e5f1e7","secondary-fixed":"#dae6da","error":"#ba1a1a","on-tertiary":"#ffffff","on-error":"#ffffff","on-secondary-fixed":"#141e17","primary-container":"#244c3a","secondary-container":"#dae6da","surface-container-highest":"#dae5dc","on-error-container":"#93000a","on-tertiary-fixed":"#2e1500","outline":"#717973","background":"#f1fcf3","surface-container-high":"#e0ebe2","surface-container-low":"#ebf7ed","surface-variant":"#dae5dc","on-primary":"#ffffff","surface":"#f1fcf3","on-surface-variant":"#414944","on-tertiary-container":"#f99c44","on-secondary-fixed-variant":"#3e4941","on-primary-fixed-variant":"#264e3c","on-primary-fixed":"#002114","inverse-surface":"#29332c","on-surface":"#141e18","secondary":"#566158","on-primary-container":"#91bba4","on-background":"#141e18","surface-bright":"#f1fcf3","primary-fixed-dim":"#a5d0b8","on-secondary-container":"#5c675e","surface-tint":"#3e6653","primary":"#0a3525","on-secondary":"#ffffff","outline-variant":"#c1c8c2","surface-container-lowest":"#ffffff","primary-fixed":"#c0edd4","inverse-primary":"#a5d0b8","tertiary-container":"#693800","secondary-fixed-dim":"#becabe"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-md":"1.25rem","margin-mobile":"1rem","margin":"1.5rem","space-sm":"0.75rem","space-xl":"3rem","margin-desktop":"3rem","space-xs":"0.5rem","gutter-desktop":"2rem","gutter-mobile":"1rem","space-lg":"2rem","gutter":"1.25rem"},fontFamily:{"headline-md":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"card-title":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"body-xl":["Plus Jakarta Sans"]},fontSize:{"headline-md":["24px",{lineHeight:"34px",fontWeight:"600"}],"body-md":["16px",{lineHeight:"26px",fontWeight:"400"}],"card-title":["22px",{lineHeight:"30px",fontWeight:"600"}],"headline-lg-mobile":["26px",{lineHeight:"36px",fontWeight:"600"}],"display-lg-mobile":["32px",{lineHeight:"42px",letterSpacing:"-0.01em",fontWeight:"700"}],"headline-lg":["32px",{lineHeight:"44px",letterSpacing:"-0.01em",fontWeight:"600"}],"display-lg":["40px",{lineHeight:"52px",letterSpacing:"-0.02em",fontWeight:"700"}],"label-lg":["18px",{lineHeight:"24px",letterSpacing:"0.01em",fontWeight:"600"}],"body-lg":["18px",{lineHeight:"28px",fontWeight:"400"}],"label-md":["16px",{lineHeight:"22px",letterSpacing:"0.01em",fontWeight:"600"}],"body-xl":["20px",{lineHeight:"32px",fontWeight:"400"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-surface-container-low px-margin-mobile lg:px-margin-desktop py-space-xs"><div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-space-xs font-label-md text-label-md"><div class="flex items-center gap-space-sm"><span class="flex h-3 w-3 rounded-full bg-primary-container ring-4 ring-secondary-container"></span><span class="text-on-surface-variant font-body-md text-body-md">Sharing: <span class="font-label-md text-primary font-semibold">Active (Daughter Priya)</span></span></div><div class="flex items-center gap-space-xs bg-surface-container-highest px-space-sm py-1 rounded-full"><span class="material-symbols-outlined text-primary text-base">info</span><p class="font-body-md text-body-md text-on-surface-variant">Saathi is not for medical emergencies. In an emergency, please call <span class="font-semibold text-primary">112</span> or your doctor.</p></div><div class="flex items-center gap-space-xs"><span class="font-label-md text-label-md text-on-surface-variant mr-1">Text size:</span><div aria-label="Font size controls" class="inline-flex items-center bg-surface-container-high rounded-lg p-0.5" role="group"><button aria-label="Smaller font size" class="min-h-[44px] min-w-[44px] px-2 py-1 font-label-md text-label-md text-on-surface rounded-lg hover:bg-surface-container-lowest transition-colors" type="button">A-</button><button aria-label="Standard font size" class="min-h-[44px] min-w-[44px] px-2 py-1 font-label-md text-label-md text-on-surface font-semibold rounded-lg bg-surface-container-lowest shadow-sm" type="button">A</button><button aria-label="Larger font size" class="min-h-[44px] min-w-[44px] px-2 py-1 font-label-md text-label-md text-on-surface rounded-lg hover:bg-surface-container-lowest transition-colors" type="button">A+</button></div></div></div></div><div class="h-20 max-w-7xl mx-auto px-margin-mobile lg:px-margin-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Saathi Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1V_K_HH9NrfvM5eNU6kzpXl9cvFYyeiw0mbNUdq1ARZCTHKMOQSd5JjSWhW9DLqCLEN1enf9m1KBmrh1rguINn2t0_xHbij8dY6h70CbcInj8FxrQqU59FCaZnQYssY191AAyXG1q78kqqsnMcml48cosC5VpwbAyNREeoaIJzVZroLzRUC4p-d6RZ57lxtFDwC33y3E8s_WnapTQcP1WW8eAqVRaotQUrEQntDvhjTtZOJoRud5BOkCmg5"/><div class="flex flex-col"><span class="font-headline-md text-headline-md font-bold tracking-tight text-primary leading-tight">Saathi</span><span class="font-body-md text-body-md text-secondary leading-none hidden sm:inline">Your Caring Health Companion</span></div></div><nav class="hidden md:flex items-center gap-space-xs font-label-lg text-label-lg" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-xl"><a class="min-h-[48px] px-space-md py-space-xs flex items-center rounded-xl text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="home" href="#">Home</a><a aria-current="page" class="min-h-[48px] px-space-md py-space-xs flex items-center transition-colors bg-primary-container text-on-primary-container font-semibold rounded-xl" data-path="talk-to-saathi" href="#">Talk to Saathi</a><a class="min-h-[48px] px-space-md py-space-xs flex items-center rounded-xl text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="health-trends" href="#">Health Trends</a><a class="min-h-[48px] px-space-md py-space-xs flex items-center rounded-xl text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="caregiver-view" href="#">Caregiver View</a></nav><div class="flex items-center gap-space-sm"><div class="hidden sm:flex flex-col text-right"><span class="font-label-lg text-label-lg text-primary">Namaste, Ramesh ji</span><span class="font-body-md text-body-md text-secondary">Independent living</span></div><div class="p-0.5 rounded-full ring-2 ring-primary-container"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAL6SKcoj9b5LNkbV1goIcQpRJ8a7Bl2FWUQySgSJwhMb4dzqsfPFp-wJTEKrZRTCy0KR1jIb3REse_8UdRdq5XDK4vQQcNSWms7eoXZt7Kb9c5Aag5Wma1ws1N0GgrAQgKduSKADQOR_IYZQffpRdHbNriIoNPry5c8sKR8As7L2DTSJaWtCC8lit-NuykHtHkHp2QSPwy5JAq-ruN-NkePCGjXK9z1L6D5X-ApMMg_FxA9y2tmOQH6A"/></div></div></div></header><main class="w-full pt-36 bg-background min-h-screen"><div class="flex flex-col w-full">
+<div class="max-w-7xl mx-auto w-full px-margin-mobile lg:px-margin-desktop py-space-md">
+<!-- Top Stage Header & Stepper -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md lg:p-space-lg shadow-sm mb-space-lg">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="space-y-space-xs">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md">
+<span class="material-symbols-outlined text-primary text-base">record_voice_over</span>
+<span>Daily Morning Session • Today, 10:14 AM</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tight">Talk to Saathi — Daily Voice Check-in</h1>
+<p class="font-body-lg text-body-lg text-secondary">
+            Speaking in Hindi or English (Hinglish supported). Take your time and speak at your comfortable pace.
+          </p>
+</div>
+<!-- Accessible Visual Step Progress -->
+<div class="bg-surface-container-low px-space-md py-space-sm rounded-xl shrink-0">
+<span class="block font-label-md text-label-md text-on-surface-variant mb-space-xs">Check-in Progress</span>
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface">
+<span class="inline-flex items-center gap-1 bg-primary text-on-primary px-3 py-1 rounded-lg">
+<span class="material-symbols-outlined text-sm">mic</span> 1. Listen &amp; Speak
+            </span>
+<span class="material-symbols-outlined text-secondary">chevron_right</span>
+<span class="inline-flex items-center gap-1 bg-surface-container-highest text-primary font-semibold px-3 py-1 rounded-lg">
+<span class="material-symbols-outlined text-sm">fact_check</span> 2. Review
+            </span>
+<span class="material-symbols-outlined text-secondary">chevron_right</span>
+<span class="inline-flex items-center gap-1 text-secondary px-2 py-1">
+              3. Confirm
+            </span>
+</div>
+</div>
+</div>
+</div>
+<!-- Main Two-Column Interactive Workspace -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-start">
+<!-- LEFT COLUMN: Active Voice Interaction Loop (7 Cols) -->
+<section aria-label="Voice conversation with Saathi" class="lg:col-span-7 flex flex-col gap-space-md">
+<!-- Live Audio Studio Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md lg:p-space-lg shadow-sm">
+<!-- Status Banner & Sound Wave -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pb-space-md">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md">
+<span class="relative flex h-3 w-3">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-3 w-3 bg-primary"></span>
+</span>
+<span class="font-semibold" id="voice-state-text">Saathi is listening carefully...</span>
+</div>
+<div class="flex items-center gap-space-xs text-secondary font-label-md text-label-md">
+<span class="material-symbols-outlined text-primary text-lg">volume_up</span>
+<span>Audio Level: Good</span>
+</div>
+</div>
+<!-- Dynamic Waveform Visualizer Graphic -->
+<div aria-hidden="true" class="h-20 w-full bg-surface-container-low rounded-xl px-space-md py-space-xs flex items-center justify-between gap-1 overflow-hidden">
+<span class="w-1.5 bg-primary rounded-full h-4 animate-pulse"></span>
+<span class="w-1.5 bg-primary-fixed-dim rounded-full h-8 animate-pulse" style="animation-delay: 75ms"></span>
+<span class="w-1.5 bg-primary rounded-full h-12 animate-pulse" style="animation-delay: 150ms"></span>
+<span class="w-1.5 bg-tertiary-fixed-dim rounded-full h-16 animate-pulse" style="animation-delay: 220ms"></span>
+<span class="w-1.5 bg-primary rounded-full h-10 animate-pulse" style="animation-delay: 300ms"></span>
+<span class="w-1.5 bg-primary-fixed-dim rounded-full h-5 animate-pulse" style="animation-delay: 180ms"></span>
+<span class="w-1.5 bg-tertiary-fixed-dim rounded-full h-14 animate-pulse" style="animation-delay: 360ms"></span>
+<span class="w-1.5 bg-primary rounded-full h-16 animate-pulse" style="animation-delay: 90ms"></span>
+<span class="w-1.5 bg-primary-fixed-dim rounded-full h-11 animate-pulse" style="animation-delay: 280ms"></span>
+<span class="w-1.5 bg-primary rounded-full h-6 animate-pulse" style="animation-delay: 400ms"></span>
+<span class="w-1.5 bg-tertiary-fixed-dim rounded-full h-12 animate-pulse" style="animation-delay: 140ms"></span>
+<span class="w-1.5 bg-primary rounded-full h-14 animate-pulse" style="animation-delay: 210ms"></span>
+<span class="w-1.5 bg-primary-fixed-dim rounded-full h-7 animate-pulse" style="animation-delay: 310ms"></span>
+<span class="w-1.5 bg-primary rounded-full h-15 animate-pulse" style="animation-delay: 110ms"></span>
+<span class="w-1.5 bg-primary-fixed-dim rounded-full h-9 animate-pulse" style="animation-delay: 260ms"></span>
+<span class="w-1.5 bg-tertiary-fixed-dim rounded-full h-4 animate-pulse" style="animation-delay: 190ms"></span>
+</div>
+<!-- Central Touchpad / Microphone Controls -->
+<div class="mt-space-md pt-space-xs flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<!-- Giant 96px Primary Voice Hub Button -->
+<button aria-label="Microphone active. Tap to pause speaking." class="relative group p-3 rounded-full bg-secondary-fixed transition-transform active:scale-95 focus:outline-none" id="mic-toggle-btn" type="button">
+<span class="absolute -inset-1.5 rounded-full bg-primary-fixed-dim opacity-40 animate-ping pointer-events-none"></span>
+<span class="w-20 h-20 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-lg transition-colors group-hover:bg-primary-container">
+<span class="material-symbols-outlined text-4xl" id="mic-icon">mic</span>
+</span>
+</button>
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-primary">Microphone Active</span>
+<span class="font-body-md text-body-md text-secondary">Tap the green circle when finished speaking</span>
+</div>
+</div>
+<!-- Fast Tactical Controls -->
+<div class="flex items-center gap-space-xs w-full sm:w-auto">
+<button class="flex-1 sm:flex-initial min-h-[56px] px-space-md rounded-xl bg-surface-container text-primary font-label-lg text-label-lg hover:bg-surface-container-high transition-colors flex items-center justify-center gap-space-xs" id="pause-voice-btn" type="button">
+<span class="material-symbols-outlined text-xl">pause_circle</span>
+<span>Pause</span>
+</button>
+<button class="flex-1 sm:flex-initial min-h-[56px] px-space-md rounded-xl bg-primary-fixed text-on-primary-fixed font-label-lg text-label-lg hover:bg-primary-fixed-dim transition-colors flex items-center justify-center gap-space-xs" id="done-voice-btn" type="button">
+<span class="material-symbols-outlined text-xl">check</span>
+<span>Done</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Conversational Speech Bubble Stream -->
+<div aria-live="polite" class="space-y-space-md">
+<!-- Saathi Bubble 1 -->
+<div class="flex items-start gap-space-sm max-w-2xl">
+<div class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-primary text-2xl">smart_toy</span>
+</div>
+<div class="flex flex-col">
+<div class="bg-secondary-fixed text-on-surface p-space-md rounded-2xl rounded-bl-sm shadow-sm">
+<p class="font-body-xl text-body-xl text-on-surface leading-relaxed">
+                  Namaste Ramesh ji! I am here with you. How is your body feeling this morning? Did you sleep comfortably, and how is your knee today?
+                </p>
+</div>
+<div class="flex items-center gap-space-xs mt-1 text-secondary font-label-md text-label-md px-1">
+<span>Saathi Voice</span>
+<span>•</span>
+<span>10:13 AM</span>
+<button aria-label="Replay Saathi voice message" class="inline-flex items-center gap-0.5 text-primary hover:underline ml-space-xs" type="button">
+<span class="material-symbols-outlined text-base">replay</span>
+<span>Listen again</span>
+</button>
+</div>
+</div>
+</div>
+<!-- User Transcription Bubble -->
+<div class="flex flex-col items-end ml-auto max-w-2xl">
+<div class="bg-surface-container-lowest text-primary p-space-md rounded-2xl rounded-br-sm shadow-sm">
+<div class="flex items-center justify-between gap-space-md mb-space-xs">
+<span class="inline-flex items-center gap-1 font-label-md text-label-md text-primary font-semibold">
+<span class="material-symbols-outlined text-base">hearing</span> You spoke:
+                </span>
+<span class="font-label-md text-label-md text-secondary">Audio verified 10:14 AM</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface leading-relaxed">
+                "My knee has been hurting for the last three days, especially when I walk down the stairs after breakfast. I took my blood pressure tablet on time, but skipped the knee balm."
+              </p>
+</div>
+<div class="flex items-center gap-space-sm mt-1 px-1">
+<span class="font-label-md text-label-md text-secondary">Transcription accuracy: High</span>
+<button class="font-label-md text-label-md text-primary hover:underline" type="button">
+                Correct words
+              </button>
+</div>
+</div>
+<!-- Saathi Responsive Inquiry Bubble -->
+<div class="flex items-start gap-space-sm max-w-2xl">
+<div class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-primary text-2xl">support_agent</span>
+</div>
+<div class="flex flex-col">
+<div class="bg-secondary-fixed text-on-surface p-space-md rounded-2xl rounded-bl-sm shadow-sm">
+<p class="font-body-xl text-body-xl text-on-surface leading-relaxed">
+                  I am sorry you are experiencing that knee discomfort, Ramesh ji. Has the pain become worse, stayed about the same, or improved compared to yesterday? And does sitting down to rest bring relief?
+                </p>
+</div>
+<div class="flex items-center gap-space-xs mt-1 text-secondary font-label-md text-label-md px-1">
+<span>Saathi Voice</span>
+<span>•</span>
+<span>10:14 AM</span>
+<button aria-label="Replay Saathi follow-up question" class="inline-flex items-center gap-0.5 text-primary hover:underline ml-space-xs" type="button">
+<span class="material-symbols-outlined text-base">replay</span>
+<span>Listen again</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Accessible Keyboard Text Entry Fallback Drawer -->
+<div class="bg-surface-container-low rounded-xl p-space-md shadow-sm">
+<label class="block font-label-lg text-label-lg text-primary mb-space-xs" for="text-fallback-input">
+            Prefer typing? Type your message below:
+          </label>
+<div class="flex flex-col sm:flex-row gap-space-xs">
+<input class="w-full min-h-[56px] px-space-md rounded-xl bg-surface-container-lowest text-on-surface placeholder:text-secondary font-body-lg text-body-lg focus:outline-none" id="text-fallback-input" placeholder="e.g., Today the pain feels a little better after drinking warm water..." type="text"/>
+<button class="min-h-[56px] px-space-lg rounded-xl bg-primary text-on-primary font-label-lg text-label-lg hover:bg-primary-container transition-colors flex items-center justify-center gap-space-xs shrink-0" id="text-send-btn" type="button">
+<span>Send</span>
+<span class="material-symbols-outlined">send</span>
+</button>
+</div>
+</div>
+</section>
+<!-- RIGHT COLUMN: Structured Extracted Summary Card (5 Cols) -->
+<aside aria-label="Structured health check-in review card" class="lg:col-span-5 flex flex-col gap-space-md">
+<div class="bg-surface-container-lowest rounded-xl p-space-md lg:p-space-lg shadow-sm">
+<!-- Card Header with Plain Guidance -->
+<div class="pb-space-md">
+<div class="flex items-center gap-space-xs text-primary font-label-lg text-label-lg mb-1">
+<span class="material-symbols-outlined text-2xl">fact_check</span>
+<h2 class="font-card-title text-card-title text-primary">Extracted Health Details</h2>
+</div>
+<p class="font-body-md text-body-md text-secondary">
+              Please review what Saathi noted down. You or your family can tap any row to edit or add context.
+            </p>
+</div>
+<!-- Parsed Clinical Items List -->
+<div class="space-y-space-sm">
+<!-- Item 1: Symptom & Category -->
+<div class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between gap-space-xs">
+<div class="space-y-1">
+<div class="flex items-center gap-2">
+<span class="font-label-md text-label-md text-secondary">Identified Symptom</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-xs font-semibold">Musculoskeletal</span>
+</div>
+<p class="font-headline-md text-headline-md text-primary">Left Knee Pain &amp; Stiffness</p>
+</div>
+<button aria-label="Edit knee pain symptom" class="min-h-[44px] min-w-[44px] flex items-center justify-center rounded-lg bg-surface-container-highest text-primary hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-lg">edit</span>
+</button>
+</div>
+</div>
+<!-- Item 2: Duration -->
+<div class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between gap-space-xs">
+<div class="space-y-1">
+<span class="font-label-md text-label-md text-secondary">Symptom Duration</span>
+<p class="font-body-xl text-body-xl text-on-surface font-semibold">Lasting 3 consecutive days</p>
+<p class="font-body-md text-body-md text-secondary">First recorded onset: Tuesday morning</p>
+</div>
+<button aria-label="Edit duration details" class="min-h-[44px] min-w-[44px] flex items-center justify-center rounded-lg bg-surface-container-highest text-primary hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-lg">edit</span>
+</button>
+</div>
+</div>
+<!-- Item 3: Aggravating Factor -->
+<div class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between gap-space-xs">
+<div class="space-y-1">
+<span class="font-label-md text-label-md text-secondary">Trigger / Aggravation</span>
+<p class="font-body-xl text-body-xl text-on-surface font-semibold">Walking down stairs after breakfast</p>
+<p class="font-body-md text-body-md text-secondary">Flat ground walking remains manageable</p>
+</div>
+<button aria-label="Edit aggravating factor" class="min-h-[44px] min-w-[44px] flex items-center justify-center rounded-lg bg-surface-container-highest text-primary hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-lg">edit</span>
+</button>
+</div>
+</div>
+<!-- Item 4: Severity Level -->
+<div class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between gap-space-xs">
+<div class="space-y-1">
+<span class="font-label-md text-label-md text-secondary">Reported Severity</span>
+<div class="flex items-center gap-space-xs">
+<span class="px-2.5 py-1 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md font-semibold">
+                      Mild to Moderate • ~3 / 10
+                    </span>
+<span class="font-body-md text-body-md text-secondary">Stable vs. yesterday</span>
+</div>
+</div>
+<button aria-label="Adjust severity score" class="min-h-[44px] min-w-[44px] flex items-center justify-center rounded-lg bg-surface-container-highest text-primary hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-lg">edit</span>
+</button>
+</div>
+</div>
+<!-- Item 5: Medication Status with Calm Indicators -->
+<div class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors">
+<div class="space-y-space-xs">
+<span class="font-label-md text-label-md text-secondary">Today's Medication Tracker</span>
+<div class="space-y-2">
+<div class="flex items-center justify-between p-space-xs rounded-lg bg-surface-container-lowest">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+<span class="font-body-lg text-body-lg text-on-surface font-semibold">Morning BP Tablet (Amlodipine 5mg)</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-primary font-label-md text-label-md font-semibold">Taken</span>
+</div>
+<div class="flex items-center justify-between p-space-xs rounded-lg bg-surface-container-lowest">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-error text-xl">cancel</span>
+<span class="font-body-lg text-body-lg text-on-surface font-semibold">Knee Pain Topical Balm</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-error-container text-on-error-container font-label-md text-label-md font-semibold">Skipped</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Senior-Friendly Clear Action Controls -->
+<div class="mt-space-md pt-space-xs space-y-space-sm">
+<!-- Primary Save Action Button (Min 60px touch footprint) -->
+<button class="w-full min-h-[60px] px-space-lg rounded-xl bg-primary text-on-primary font-label-lg text-label-lg hover:bg-primary-container shadow-md transition-all flex items-center justify-center gap-space-xs" id="confirm-save-btn" type="button">
+<span class="material-symbols-outlined text-2xl">check_circle</span>
+<span>Confirm &amp; Save Check-in</span>
+</button>
+<!-- Secondary Modify Action Button -->
+<button class="w-full min-h-[56px] px-space-md rounded-xl bg-surface-container text-primary font-label-lg text-label-lg hover:bg-surface-container-high transition-colors flex items-center justify-center gap-space-xs" type="button">
+<span class="material-symbols-outlined text-xl">edit_note</span>
+<span>Edit Details / Add Manual Note</span>
+</button>
+<!-- Discrete Discard Trigger -->
+<div class="text-center pt-1">
+<button class="min-h-[44px] px-space-sm font-label-md text-label-md text-secondary hover:text-error transition-colors" type="button">
+                Cancel &amp; Discard Check-in
+              </button>
+</div>
+</div>
+</div>
+<!-- Caregiver Live Sync Telemetry Snippet -->
+<div class="bg-surface-container-low rounded-xl p-space-md flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-2xl">share_location</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-primary">Priya's Summary Preview</span>
+<p class="font-body-md text-body-md text-secondary">
+              Once confirmed, a gentle daily recap will be placed in your daughter Priya's companion app.
+            </p>
+</div>
+</div>
+</aside>
+</div>
+<!-- Non-Diagnostic Medical Guardrail Banner -->
+<div class="mt-space-xl p-space-md lg:p-space-lg rounded-xl bg-surface-container-low shadow-sm">
+<div class="flex flex-col sm:flex-row items-start sm:items-center gap-space-md">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-xl">medical_information</span>
+</div>
+<div class="space-y-0.5">
+<p class="font-label-md text-label-md text-primary font-semibold">Important Medical Notice • Saathi Non-Diagnostic Wellness Companion</p>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Saathi is recording your personal observations to help you comfortably discuss them with Dr. Mehta during your next visit. This record does not constitute medical diagnosis, treatment, or prescription.
+          </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive Client-side Script -->
+
+<script>
+(function () {
+  const $ = id => document.getElementById(id);
+
+  const micBtn = $('mic-toggle-btn');
+  const micIcon = $('mic-icon');
+  const statusText = $('voice-state-text');
+  const pauseBtn = $('pause-voice-btn');
+  const doneBtn = $('done-voice-btn');
+  const saveBtn = $('confirm-save-btn');
+  const textInput = $('text-fallback-input');
+  const sendBtn = $('text-send-btn');
+
+  let notes = [];
+  let latestText = '';
+  let latestDetails = null;
+  let recognition = null;
+
+  // Create visible UI panels without relying on existing page IDs.
+  function makePanel(id, title) {
+    let panel = $(id);
+    if (panel) return panel;
+
+    panel = document.createElement('section');
+    panel.id = id;
+    panel.style.cssText =
+      'margin:16px 0;padding:18px;border:1px solid #d5e4d8;' +
+      'border-radius:16px;background:#fff;color:#234332;' +
+      'font:16px/1.6 Arial,sans-serif;white-space:pre-wrap;';
+
+    const heading = document.createElement('h3');
+    heading.textContent = title;
+    heading.style.cssText = 'font-size:19px;font-weight:bold;margin:0 0 10px;';
+
+    panel.appendChild(heading);
+
+    const anchor = doneBtn || saveBtn || textInput;
+    if (anchor && anchor.parentElement) {
+      anchor.parentElement.insertAdjacentElement('afterend', panel);
+    } else {
+      document.body.appendChild(panel);
+    }
+    return panel;
+  }
+
+  const progressPanel = makePanel('saathi-progress-panel', 'Saathi — Progress');
+  const chatPanel = makePanel('saathi-chat-panel', 'Conversation');
+  const summaryPanel = makePanel('saathi-summary-panel', 'Your Check-in Summary');
+  const historyPanel = makePanel('saathi-history-panel', 'Saved Check-ins');
+
+  function showProgress(message) {
+    progressPanel.textContent = '';
+    const heading = document.createElement('strong');
+    heading.textContent = 'Status: ';
+    progressPanel.append(heading, document.createTextNode(message));
+
+    if (statusText) statusText.textContent = message;
+  }
+
+  function addChat(speaker, message) {
+    const line = document.createElement('p');
+    line.style.margin = '8px 0';
+    const label = document.createElement('strong');
+    label.textContent = speaker + ': ';
+    line.append(label, document.createTextNode(message));
+    chatPanel.appendChild(line);
+  }
+
+  function extract(text) {
+    const lower = text.toLowerCase();
+
+    const symptoms = [
+      'knee pain', 'headache', 'dizziness', 'fever',
+      'cough', 'chest pain', 'stomach pain', 'back pain',
+      'joint pain', 'weakness', 'breathlessness', 'pain'
+    ];
+
+    const symptom = symptoms.find(s => lower.includes(s)) || 'Not specified';
+    const durationMatch = lower.match(
+      /\b(\d+|one|two|three|four|five|six|seven)\s+(day|days|week|weeks|month|months|hour|hours)\b/
+    );
+
+    let severity = 'Not specified';
+    if (/severe|unbearable|extreme/.test(lower)) severity = 'Severe words mentioned';
+    else if (/mild|slight|little pain/.test(lower)) severity = 'Mild words mentioned';
+    else if (/moderate/.test(lower)) severity = 'Moderate words mentioned';
+
+    let trigger = 'Not specified';
+    if (/walking|walk/.test(lower)) trigger = 'Walking mentioned';
+    else if (/sleep|night/.test(lower)) trigger = 'Sleep/night mentioned';
+    else if (/morning/.test(lower)) trigger = 'Morning mentioned';
+    else if (/eating|food|meal/.test(lower)) trigger = 'Eating mentioned';
+
+    return {
+      symptom,
+      duration: durationMatch ? durationMatch[0] : 'Not specified',
+      severity,
+      trigger,
+      originalNote: text
+    };
+  }
+
+  function showSummary() {
+    if (!latestText.trim()) {
+      showProgress('No message received yet. Send a text message first.');
+      return false;
+    }
+
+    latestDetails = extract(latestText);
+    summaryPanel.textContent = '';
+
+    const heading = document.createElement('h3');
+    heading.textContent = 'Check-in ready for review';
+    heading.style.cssText = 'font-size:19px;font-weight:bold;margin:0 0 12px;';
+    summaryPanel.appendChild(heading);
+
+    [
+      ['Reported concern', latestDetails.symptom],
+      ['Duration mentioned', latestDetails.duration],
+      ['Severity words', latestDetails.severity],
+      ['Possible trigger mentioned', latestDetails.trigger],
+      ['Original note', latestDetails.originalNote]
+    ].forEach(([label, value]) => {
+      const row = document.createElement('p');
+      row.style.margin = '8px 0';
+
+      const strong = document.createElement('strong');
+      strong.textContent = label + ': ';
+
+      row.append(strong, document.createTextNode(value));
+      summaryPanel.appendChild(row);
+    });
+
+    const disclaimer = document.createElement('p');
+    disclaimer.textContent =
+      'This is a simple text-based summary, not an AI diagnosis or medical assessment.';
+    disclaimer.style.cssText = 'margin-top:12px;font-size:13px;color:#59665d;';
+    summaryPanel.appendChild(disclaimer);
+
+    showProgress('Summary generated. Review it below, then click Save check-in.');
+    summaryPanel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    return true;
+  }
+
+  function handleMessage(message) {
+    const clean = message.trim();
+    if (!clean) {
+      showProgress('Please enter a message first.');
+      return;
+    }
+
+    latestText = [latestText, clean].filter(Boolean).join(' ');
+    addChat('You', clean);
+
+    const lower = clean.toLowerCase();
+    let reply =
+      'Thank you for sharing that. I have added your words to this check-in.';
+
+    if (/namaste|hello|\bhi\b/.test(lower)) {
+      reply = 'Namaste! I am here to listen. How are you feeling today?';
+    } else if (/lonely|alone|sad|upset/.test(lower)) {
+      reply = 'Thank you for telling me. Would you like to reach out to someone you trust?';
+    } else if (/pain|fever|dizz|cough|weakness|breathless/.test(lower)) {
+      reply = 'I am sorry you are experiencing that. I have noted your concern. If symptoms are sudden, severe, or worsening, please seek medical help.';
+    }
+
+    addChat('Saathi', reply);
+    showProgress('Message received. Click Done to generate your summary.');
+  }
+
+  function stopVoice() {
+    if (recognition) {
+      try { recognition.stop(); } catch (error) {}
+    }
+    if (micIcon) micIcon.textContent = 'mic';
+  }
+
+  function startVoice() {
+    const SpeechRecognition =
+      window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    if (!SpeechRecognition) {
+      showProgress('Voice recognition is unavailable in this browser. Please use the text box.');
+      return;
+    }
+
+    try {
+      if (!recognition) {
+        recognition = new SpeechRecognition();
+        recognition.lang = 'en-IN';
+        recognition.continuous = false;
+
+        recognition.onresult = event => {
+          const transcript = event.results[0][0].transcript;
+          handleMessage(transcript);
+        };
+
+        recognition.onerror = () => {
+          showProgress('Voice input failed. Please try typing instead.');
+        };
+
+        recognition.onend = () => {
+          if (micIcon) micIcon.textContent = 'mic';
+        };
+      }
+
+      recognition.start();
+      if (micIcon) micIcon.textContent = 'mic';
+      showProgress('Listening now. Please speak clearly.');
+    } catch (error) {
+      showProgress('Could not start voice input. Please use the text box.');
+    }
+  }
+
+  if (sendBtn && textInput) {
+    sendBtn.addEventListener('click', event => {
+      event.preventDefault();
+      handleMessage(textInput.value);
+      textInput.value = '';
+    });
+
+    textInput.addEventListener('keydown', event => {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        sendBtn.click();
+      }
+    });
+  }
+
+  if (micBtn) {
+    micBtn.addEventListener('click', event => {
+      event.preventDefault();
+      startVoice();
+    });
+  }
+
+  if (pauseBtn) {
+    pauseBtn.addEventListener('click', event => {
+      event.preventDefault();
+      stopVoice();
+      showProgress('Voice input paused.');
+    });
+  }
+
+  if (doneBtn) {
+    doneBtn.addEventListener('click', event => {
+      event.preventDefault();
+      stopVoice();
+      showSummary();
+    });
+  }
+
+  if (saveBtn) {
+    saveBtn.addEventListener('click', event => {
+      event.preventDefault();
+
+      if (!latestText.trim()) {
+        showProgress('Nothing to save yet. Send a message first.');
+        return;
+      }
+
+      if (!latestDetails && !showSummary()) return;
+
+      try {
+        const saved = JSON.parse(localStorage.getItem('saathi-checkins') || '[]');
+
+        saved.push({
+          date: new Date().toISOString(),
+          text: latestText,
+          details: latestDetails
+        });
+
+        localStorage.setItem('saathi-checkins', JSON.stringify(saved));
+
+        showProgress('Saved successfully on this browser. Nothing was sent to a doctor or caregiver.');
+
+        const confirmation = document.createElement('p');
+        confirmation.textContent = '✓ Check-in saved on this device.';
+        confirmation.style.cssText = 'font-weight:bold;color:#176b43;';
+        summaryPanel.appendChild(confirmation);
+
+        renderHistory();
+      } catch (error) {
+        showProgress('Save failed. Your browser may have local storage disabled.');
+      }
+    });
+  }
+
+  function renderHistory() {
+    historyPanel.textContent = '';
+    const heading = document.createElement('h3');
+    heading.textContent = 'Saved Check-ins';
+    heading.style.cssText = 'font-size:19px;font-weight:bold;margin:0 0 10px;';
+    historyPanel.appendChild(heading);
+
+    try {
+      const entries = JSON.parse(localStorage.getItem('saathi-checkins') || '[]');
+
+      if (!entries.length) {
+        historyPanel.appendChild(document.createTextNode('No saved check-ins yet.'));
+        return;
+      }
+
+      entries.slice().reverse().forEach(entry => {
+        const item = document.createElement('p');
+        item.style.cssText = 'padding:10px 0;border-bottom:1px solid #e1e8e2;';
+        item.textContent =
+          new Date(entry.date).toLocaleString() + ' — ' + entry.text;
+        historyPanel.appendChild(item);
+      });
+    } catch (error) {
+      historyPanel.appendChild(document.createTextNode('Unable to read saved history.'));
+    }
+  }
+
+  renderHistory();
+  showProgress('Ready. Type a message, click Send, then click Done and Save check-in.');
+})();
+</script>
+
+</div></main><footer class="w-full bg-surface-container-low mt-space-xl py-space-xl"><div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin-desktop"><div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_4px_20px_-2px_rgba(36,76,58,0.06)] flex flex-col md:flex-row items-center justify-between gap-space-md mb-space-lg"><div class="flex items-center gap-space-md"><div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-primary text-2xl">favorite</span></div><div><p class="font-label-lg text-label-lg text-primary">Thoughtful, Non-Diagnostic Care</p><p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">Saathi is a wellness check-in companion and does not provide medical diagnoses or emergency triage. Always consult your qualified healthcare provider.</p></div></div><a class="min-h-[50px] px-space-lg py-space-xs inline-flex items-center justify-center rounded-xl bg-error-container text-on-error-container font-label-lg text-label-lg hover:bg-error hover:text-on-error transition-colors shrink-0" data-path="emergency-contacts" href="#">Emergency SOS: 112</a></div><div class="flex flex-col md:flex-row items-center justify-between gap-space-md pt-space-md"><div class="flex flex-wrap items-center justify-center gap-space-md"><a class="min-h-[44px] inline-flex items-center font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="family-contacts" href="#">Family Contacts</a><a class="min-h-[44px] inline-flex items-center font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="audio-help" href="#">Audio &amp; Voice Help</a><a class="min-h-[44px] inline-flex items-center font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="caregiver-view" href="#">Caregiver Settings</a></div><p class="font-body-md text-body-md text-secondary text-center md:text-right">© 2025 Saathi Health Companion. Dedicated to respectful, warm elderly care.</p></div></div></footer></body></html>
